@@ -2,4 +2,10 @@
 
 cmake_minimum_required(VERSION 3.2)
 project(MyApp)
-add_executable(MyExe src/main.cpp) # or ADD_EXECUTEABLE, is case insensitive
+# or ADD_EXECUTEABLE, is case insensitive
+add_executable(MyExe 
+                src/main.cpp
+                src/cat.hpp
+                src/cat.cpp) 
+                
+                
